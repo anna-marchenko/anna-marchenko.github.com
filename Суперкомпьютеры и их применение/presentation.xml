@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<presentation title="Суперкомпьютеры и их применение" width="720.0000000" height="540.0000000" thmbWidth="0.0000000" thmbHeight="0.0000000" frameRate="24.0000000" looping="1" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{10B2CC82-59E7-4F81-B4A4-D975168E6B15}">
+	<presenters/>
+	<references/>
+	<soundAssets/>
+	<sharedAssetsLibrary src="data/assets.swf"/>
+	<graphicAssets/>
+	<backgroundSound soundAssetId="" looping="0"/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="buttonGradientBegin">#FFE89C</color>
+				<color id="buttonGradientEnd">#FFB700</color>
+				<color id="buttonIcon">#000000</color>
+				<color id="controlPanel.bg_begin">#F5F5F5</color>
+				<color id="controlPanel.bg_end">#F5F5F5</color>
+				<color id="controlPanel.buttons.normal.bg_begin">#FFFFFF</color>
+				<color id="controlPanel.buttons.normal.bg_end">#E5E5E5</color>
+				<color id="controlPanel.buttons.normal.content">#3C3C3C</color>
+				<color id="controlPanel.buttons.selected.bg_begin">#3C3C3C</color>
+				<color id="controlPanel.buttons.selected.bg_end">#5A5A5A</color>
+				<color id="controlPanel.buttons.selected.content">#FFFFFF</color>
+				<color id="controlPanel.iconButton.normal.icon">#3C3C3C</color>
+				<color id="controlPanel.timeline.bg">#5A5A5A</color>
+				<color id="controlPanel.timeline.currentSlide">#000000</color>
+				<color id="controlPanel.timeline.currentTime">#000000</color>
+				<color id="controlPanel.timeline.loadingProgress">#FFFFFF</color>
+				<color id="controlPanel.timeline.playback">#CCE8FF</color>
+				<color id="controlPanel.timeline.totalSlides">#5A5A5A</color>
+				<color id="controlPanel.timeline.totalTime">#5A5A5A</color>
+				<color id="controlPanel.volumeControlBar">#82B5FF</color>
+				<color id="selectedButtonGradientBegin">#2E2E2E</color>
+				<color id="selectedButtonGradientEnd">#424242</color>
+				<color id="selectedButtonIcon">#FFFFFF</color>
+				<color id="sidePanel.bg">#F5F5F5</color>
+				<color id="sidePanel.buttons.normal.content">#3C3C3C</color>
+				<color id="sidePanel.buttons.selected.bg_begin">#3C3C3C</color>
+				<color id="sidePanel.buttons.selected.bg_end">#5A5A5A</color>
+				<color id="sidePanel.buttons.selected.content">#FFFFFF</color>
+				<color id="sidePanel.companyLogoBg">#F5F5F5</color>
+				<color id="sidePanel.hyperlinks.normal">#0068FF</color>
+				<color id="sidePanel.hyperlinks.visited">#A64FBA</color>
+				<color id="sidePanel.primaryColor">#000000</color>
+				<color id="sidePanel.secondaryColor">#5A5A5A</color>
+				<color id="sidePanel.tabs.bg">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.buttons.bg_begin">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.buttons.bg_end">#E5E5E5</color>
+				<color id="sidePanel.tabs.content.buttons.content">#3C3C3C</color>
+				<color id="sidePanel.tabs.content.lists.item.highlighted">#CCE8FF</color>
+				<color id="sidePanel.tabs.content.lists.item.selected">#3C3C3C</color>
+				<color id="sidePanel.tabs.content.primaryColor.normal">#3C3C3C</color>
+				<color id="sidePanel.tabs.content.primaryColor.selected">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.secondaryColor.normal">#5A5A5A</color>
+				<color id="sidePanel.tabs.content.secondaryColor.selected">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.slideTitleVisited.normal">#A5A5A5</color>
+				<color id="sidePanel.tabs.hyperlink">#376EDC</color>
+				<color id="sidePanel.tabs.tab.active.content">#000000</color>
+				<color id="sidePanel.tabs.tab.inactive.bg_begin">#FFFFFF</color>
+				<color id="sidePanel.tabs.tab.inactive.bg_end">#E5E5E5</color>
+				<color id="sidePanel.tabs.tab.inactive.content">#3C3C3C</color>
+				<color id="slideView.bg">#000000</color>
+				<color id="titlePanel.bg_begin">#7A7878</color>
+				<color id="titlePanel.bg_end">#7A7878</color>
+				<color id="titlePanel.buttons.normal.content">#3C3C3C</color>
+				<color id="titlePanel.buttons.selected.bg_begin">#3C3C3C</color>
+				<color id="titlePanel.buttons.selected.bg_end">#5A5A5A</color>
+				<color id="titlePanel.buttons.selected.content">#FFFFFF</color>
+				<color id="titlePanel.presentationTitle">#000000</color>
+				<color id="titlePanel.timeIndicator">#5A5A5A</color>
+				<color id="window.buttons.bg_begin">#FFFFFF</color>
+				<color id="window.buttons.bg_end">#E5E5E5</color>
+				<color id="window.buttons.content">#3C3C3C</color>
+				<color id="window.hyperlinks.normal">#0067FF</color>
+				<color id="window.hyperlinks.visited">#A64FBA</color>
+				<color id="window.panel.bg">#F5F5F5</color>
+				<color id="window.primaryColor">#3C3C3C</color>
+				<color id="window.secondaryColor">#5A5A5A</color>
+			</colorSettings>
+			<layoutSettings>
+				<titlePanelEnabled>true</titlePanelEnabled>
+				<titlePanelExpanded>true</titlePanelExpanded>
+				<sidePanelEnabled>true</sidePanelEnabled>
+				<sidePanelIsLeft>false</sidePanelIsLeft>
+				<sidePanelExpandedToBottom>false</sidePanelExpandedToBottom>
+				<navigationPanelExpanded>false</navigationPanelExpanded>
+				<showPresenterVideoAtStartup>false</showPresenterVideoAtStartup>
+				<defaultPresenterVideoSize>small</defaultPresenterVideoSize>
+			</layoutSettings>
+			<textCollection>
+				<translation messageId="attachmentsTab">Вложения</translation>
+				<translation messageId="attachmentsWindowTitle">Вложения</translation>
+				<translation messageId="cpAttachmentsButton">Вложения</translation>
+				<translation messageId="cpNotesButton">Заметки</translation>
+				<translation messageId="cpPresenterButton">Докладчик</translation>
+				<translation messageId="cpSearchButton">Поиск</translation>
+				<translation messageId="cpVideoButton">Видео</translation>
+				<translation messageId="markerPanelArrow">Указатель</translation>
+				<translation messageId="markerPanelEraser">Ластик</translation>
+				<translation messageId="markerPanelHighlighter">Маркер</translation>
+				<translation messageId="markerPanelPen">Фломастер</translation>
+				<translation messageId="mbNo">Нет</translation>
+				<translation messageId="mbOk">OK</translation>
+				<translation messageId="mbYes">Да</translation>
+				<translation messageId="notesTab">Заметки</translation>
+				<translation messageId="notesWindowTitle">Заметки</translation>
+				<translation messageId="outlineTab">Структура</translation>
+				<translation messageId="precedingQuizFailedWindowText">Вы не прошли тест на слайде %SLIDE_INDEX% и не можете просмотреть следующие слайды.</translation>
+				<translation messageId="precedingQuizFailedWindowTitle">Предупреждение</translation>
+				<translation messageId="precedingQuizNotCompletedWindowText">Необходимо завершить тест на слайде %SLIDE_INDEX%, прежде чем перейти на другой слайд.</translation>
+				<translation messageId="precedingQuizNotCompletedWindowTitle">Предупреждение</translation>
+				<translation messageId="precedingQuizNotPassedWindowText">Необходимо успешно завершить тест на слайде %SLIDE_INDEX%, прежде чем перейти на другой слайд.</translation>
+				<translation messageId="precedingQuizNotPassedWindowTitle">Предупреждение</translation>
+				<translation messageId="presenterEmail">E-mail</translation>
+				<translation messageId="presenterLessInfo">Меньше данных</translation>
+				<translation messageId="presenterMoreInfo">Больше данных</translation>
+				<translation messageId="presenterPhone">Телефон:</translation>
+				<translation messageId="presenterWebsite">Домашняя страница</translation>
+				<translation messageId="presenterWindowTitle">Докладчик</translation>
+				<translation messageId="quizSlideWindowText">Необходимо завершить тест, прежде чем перейти на другой слайд.</translation>
+				<translation messageId="quizSlideWindowTitle">Предупреждение</translation>
+				<translation messageId="resumeWindowText">Вы хотите возобновить просмотр презентации с прежнего места?</translation>
+				<translation messageId="resumeWindowTitle">Возобновление презентации</translation>
+				<translation messageId="searchHideOptions">Скрыть настройки</translation>
+				<translation messageId="searchNotes">Заметках</translation>
+				<translation messageId="searchSearchIn">Искать в</translation>
+				<translation messageId="searchShowOptions">Показать настройки</translation>
+				<translation messageId="searchTab">Поиск</translation>
+				<translation messageId="searchText">Тексте слайда</translation>
+				<translation messageId="searchTitle">Заголовке слайда</translation>
+				<translation messageId="searchWindowTitle">Поиск</translation>
+				<translation messageId="sidePanelPresenterInfo">Докладчик</translation>
+				<translation messageId="sidePanelPresenterVideo">Видео</translation>
+				<translation messageId="thumbnailsTab">Эскизы</translation>
+				<translation messageId="tpAttachmentsButton">Вложения</translation>
+				<translation messageId="tpNotesButton">Заметки</translation>
+				<translation messageId="tpPresenterButton">Докладчик</translation>
+				<translation messageId="tpSearchButton">Поиск</translation>
+				<translation messageId="tpTimeFormat">%PRESENTATION_TIME% из %PRESENTATION_DURATION%</translation>
+				<translation messageId="tpVideoButton">Видео</translation>
+				<translation messageId="videoWindowNoVideo">Нет видео</translation>
+			</textCollection>
+			<sidePanelSettings>
+				<tabsPanelSettings defaultTabIndex="-1">
+					<tabSettings id="outline"/>
+					<tabSettings id="thumbnails"/>
+					<tabSettings id="search"/>
+					<tabSettings id="notes"/>
+					<tabSettings id="attachments"/>
+				</tabsPanelSettings>
+				<presenterInfoEnabled>false</presenterInfoEnabled>
+				<companyLogoEnabled>false</companyLogoEnabled>
+				<multilevelOutline>true</multilevelOutline>
+				<presenterVideoEnabled>false</presenterVideoEnabled>
+			</sidePanelSettings>
+			<titlePanelSettings>
+				<showPresentationTitle>true</showPresentationTitle>
+				<showMarkerButton>false</showMarkerButton>
+				<showFullscreenButton>true</showFullscreenButton>
+				<showCloseButton>true</showCloseButton>
+				<showTime>false</showTime>
+				<buttons>
+					<enabledButtons/>
+					<disabledButtons>
+						<button id="video" iconId="iconVideo" iconEnabled="true" captionEnabled="true"/>
+						<button id="notes" iconId="iconNotes" iconEnabled="true" captionEnabled="true"/>
+						<button id="presenterInfo" iconId="iconPresenter" iconEnabled="true" captionEnabled="true"/>
+						<button id="search" iconId="iconSearch" iconEnabled="true" captionEnabled="true"/>
+						<button id="attachments" iconId="iconAttachment" iconEnabled="true" captionEnabled="true"/>
+					</disabledButtons>
+				</buttons>
+			</titlePanelSettings>
+			<controlPanelSettings>
+				<timelineMode>slideTimeline</timelineMode>
+				<navigationMode>bySteps</navigationMode>
+				<enableTimelineNavigation>true</enableTimelineNavigation>
+				<showVolumeControl>true</showVolumeControl>
+				<showMarkerButton>true</showMarkerButton>
+				<showFullscreenButton>false</showFullscreenButton>
+				<showLayoutButton>true</showLayoutButton>
+				<showPlayPauseButton>true</showPlayPauseButton>
+				<showNextSlideButton>true</showNextSlideButton>
+				<showPreviousSlideButton>true</showPreviousSlideButton>
+				<buttons>
+					<enabledButtons/>
+					<disabledButtons>
+						<button id="video" iconId="iconVideo" iconEnabled="true" captionEnabled="true"/>
+						<button id="notes" iconId="iconNotes" iconEnabled="true" captionEnabled="true"/>
+						<button id="presenterInfo" iconId="iconPresenter" iconEnabled="true" captionEnabled="true"/>
+						<button id="search" iconId="iconSearch" iconEnabled="true" captionEnabled="true"/>
+						<button id="attachments" iconId="iconAttachment" iconEnabled="true" captionEnabled="true"/>
+					</disabledButtons>
+				</buttons>
+			</controlPanelSettings>
+			<miscSettings>
+				<useUnicodeFont>false</useUnicodeFont>
+				<closedCaptioningStyleNotes>true</closedCaptioningStyleNotes>
+			</miscSettings>
+		</skin>
+		<colorScheme>
+			<primaryColor>0.5686482;0.5208360;-0.0894842;0.0000000;0.0000000;0.1655884;0.6967325;0.1376791;0.0000000;0.0000000;0.3927516;0.2936727;0.3135757;0.0000000;0.0000000;0.0000000;0.0000000;0.0000000;1.0000000;0.0000000;</primaryColor>
+		</colorScheme>
+		<appearance fullScreen="1"/>
+		<playback autoStart="1" resumePresentationPlayback="1" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="data/slide1.swf" size="135948" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+		<slide index="1" title="" titleNormalized="" src="data/slide2.swf" size="46914" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+		<slide index="2" title="" titleNormalized="" src="data/slide3.swf" size="56125" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+		<slide index="3" title="" titleNormalized="" src="data/slide4.swf" size="85830" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+		<slide index="4" title="" titleNormalized="" src="data/slide5.swf" size="70649" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+		<slide index="5" title="" titleNormalized="" src="data/slide6.swf" size="64655" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+		<slide index="6" title="" titleNormalized="" src="data/slide7.swf" size="57321" advanceOnTime="1" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RevealSmoothLeft" duration="2.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+		</slide>
+	</slides>
+</presentation>

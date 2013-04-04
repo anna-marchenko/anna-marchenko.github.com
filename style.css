@@ -1,0 +1,86 @@
+.bodytext {  font-family: arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; text-decoration: none; color: #000000}
+.header1 {  font-family: arial; font-size: 12pt; font-style: normal; line-height: normal; font-weight: normal; text-decoration: none; color: #000000}
+.header2 {  font-family: arial; font-size: 10pt; font-style: normal; line-height: normal; font-weight: bold; text-decoration: none; color: #000000}
+.copyrighttext {  font-family: arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; text-decoration: none; color: #666666}
+a {text-decoration: none; font-family: arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; color:#000000}
+.bold {  font-family: arial; font-size: 8pt; font-style: normal; line-height: normal; font-weight: bold; text-decoration: none; color: #000000}
+.slideshow{
+     line-height: 20px;
+     font-size: 11px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 0px;
+     margin: 0px;
+     position: relative;
+     display: none;
+}
+
+.slideshow .slideshow_nav{
+     filter: alpha(opacity=60);
+     opacity: 0.6;
+     padding: 0px;
+     margin: 0px;
+     position: absolute;
+     bottom: 10px;
+     right: 10px;
+}
+
+.slideshow .slideshow_nav li{
+     box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+     -webkit-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+     -o-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+     -khtml-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+     margin-left: 6px;
+     position: relative;
+     float: left;
+}
+
+.slideshow .slideshow_nav li a{
+     padding-left: 8px;
+     padding-right: 8px;
+     text-decoration: none;
+}
+
+.slideshow ul{
+     margin: 0px;
+     background-position:center center;
+     background-repeat: no-repeat;
+}
+
+.slideshow ul li{
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -o-border-radius: 5px;
+     -khtml-border-radius: 5px;
+     padding: 0px;
+     margin: 0px;
+     list-style: none;
+     position: absolute;
+}
+
+.slideshow ul li p{
+     margin: 0px;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     padding-left: 5px;
+     padding-right: 5px;
+     filter: alpha(opacity=60);
+     opacity: 0.6;
+     font-size: 13px;
+     line-height: 23px;
+}
+
+.slideshow ul li a{
+     text-decoration: none;
+}
+.slideshow ul li a img{
+     border: none;
+}
+
+
+
+
+
+
